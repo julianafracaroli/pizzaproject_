@@ -1,0 +1,9 @@
+#fundo-externo {
+    background-attachment: fixed;
+    	background-repeat: no-repeat;
+      background-position: center;
+}
+.fundo-pizza{
+  background-image: url('img/fundo.jpg');
+  background-size: auto;
+}

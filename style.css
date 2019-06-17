@@ -4,6 +4,6 @@
       background-position: center;
 }
 .fundo-pizza{
-  background-image: url('../img/fundo.jpg');
+  background-image: url('./img/fundo.jpg');
   background-size: auto;
 }

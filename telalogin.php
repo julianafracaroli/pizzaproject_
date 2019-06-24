@@ -2,6 +2,8 @@
 <html lang="pt-br" dir="ltr">
 <head>
 <?php include('head.php') ?>
+
+
 </head>
 <body class="">
 
@@ -18,17 +20,20 @@
           <hr>
 
 
-          <form action="controle/login.php" method="post">
+          <form action="controle/login.php" method="post" id="formulario">
 
             <!-- label serve apenas de etiqueta para o campo -->
             <label>Usuário:</label><br>
             <!-- Todo input tem que ter um type (tipo) e um name (identificação)
             O name é a identificação do campo lá no action deste formulário -->
-            <input type="text" name="login" value="" class="form-control"><br>
+            <input type="text" name="login" value="" class="form-control obrigatorio">
+            <span class="text-danger"></span> <br> <br>
+
+
 
             <label>Senha:</label><br>
-            <input type="password" name="senha" value="" class="form-control"><br>
-
+            <input type="password" name="senha" value="" class="form-control obrigatorio">
+            <span class="text-danger"></span> <br>
 
             <button type="submit" class="mt-3 btn btn-primary">Entrar</button>
             <br>

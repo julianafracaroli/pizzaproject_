@@ -12,29 +12,34 @@
       <div class="bg-white mx-auto text-center mt-1 p-3">
         <a class="text-dark"><h3>Cadastro</h3></a>
 
-        <form action="controle/cadastro.php">
+        <form action="controle/cadastro.php" id="formulario">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control obrigatorio" id="inputEmail4" placeholder="Email">
+        <span class="text-danger"></span> <br>
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Senha</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+      <input type="password" class="form-control obrigatorio" id="inputPassword4" placeholder="Senha">
+        <span class="text-danger"></span> <br>
     </div>
   </div>
   <div class="form-group">
     <label for="inputAddress">Nome</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Nome">
+    <input type="text" class="form-control obrigatorio" id="inputAddress" placeholder="Nome">
+      <span class="text-danger"></span> <br>
   </div>
   <div class="form-group">
     <label for="inputAddress2">Endereço</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Rua das Flores, 34">
+    <input type="text" class="form-control obrigatorio" id="inputAddress2" placeholder="Ex: Rua das Flores, 34">
+      <span class="text-danger"></span> <br>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Bairro</label>
-      <input type="text" class="form-control" id="inputCity"placeholder="Ex: Jardim Paraiso">
+      <input type="text" class="form-control obrigatorio" id="inputCity"placeholder="Ex: Jardim Paraiso">
+        <span class="text-danger"></span> <br>
     </div class="form-row">
 
 

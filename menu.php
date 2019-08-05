@@ -9,14 +9,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="telainicio.php">Início <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Local e Horários</a>
+              <a class="nav-link" href="telalocalhr.php">Local e Horários</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="telamenu.php">Menu</a>
             </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pedidos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="telapedido.php">Meus pedidos</a>
+              </div>
+            </li>
+
           </ul>
         </div>
       </nav>

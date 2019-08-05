@@ -35,7 +35,7 @@
             <input type="password" name="senha" value="" class="form-control obrigatorio">
             <span class="text-danger"></span> <br>
 
-            <button type="submit" class="mt-3 btn btn-primary">Entrar</button>
+            <a class="text-danger" href="telapedido.php"><strong>ENTRAR</strong></a>
             <br>
             <br>
                   <a class="text-primary" href="telacadastro.php"><strong>Ainda não é cadastrado?</strong></a>

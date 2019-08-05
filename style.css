@@ -7,3 +7,11 @@
   background-image: url('./img/fundo.jpg');
   background-size: auto;
 }
+
+.pizza{
+float:left;
+}
+
+.pizzasdireita{
+float:right;
+}

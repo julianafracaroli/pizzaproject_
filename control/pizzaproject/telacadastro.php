@@ -31,7 +31,7 @@
       <span class="text-danger"></span> <br>
   </div>
   <div class="form-group">
-    <label for="inputAddress2">Rua</label>
+    <label for="inputAddress2">Endereço</label>
     <input type="text" class="form-control obrigatorio" id="inputAddress2" placeholder="Ex: Rua das Flores, 34">
       <span class="text-danger"></span> <br>
   </div>
@@ -46,7 +46,14 @@
     <button type="submit" class="btn btn-danger mt-2 p-2 ml-5" ><h6>Cadastrar</h6></button>
     </div>
   </div>
-
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Bairro</label>
+      <input type="text" class="form-control obrigatorio" id="inputCity"placeholder="Ex: Jardim Paraiso">
+        <span class="text-danger"></span> <br>
+    </div class="form-row">
+  </div>
+</div>
 
 </form>
 

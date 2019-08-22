@@ -10,8 +10,10 @@
 
 .pizza{
 float:left;
+text-align: left;
 }
 
 .pizzasdireita{
-float:right;
+  float:right;
+  text-align: right;
 }

@@ -48,7 +48,7 @@
             </div>
           </div>
 
-            <div class="row py-5" style="width: 500px; background-color: #FFFFFF77;position:absolute;top:140px;left:800px;">
+            <div class="row py-5" style="width: 500px; background-color: #FFFFFF77;position:absolute;top:140px;left:700px;">
                 <div class=" mx-auto p-2">
                   <div class="text-danger rounded mx-auto  mt-5 display-1 font-weight-normal " >
                     <h1>Pizzas Salgadas</h1>

@@ -27,23 +27,23 @@
   </div>
   <div class="form-group">
     <label for="inputAddress">Nome</label>
-    <input type="text" name="nome" class="form-control obrigatorio" id="inputAddress" placeholder="Nome">
+    <input type="text" name="nome" class="form-control obrigatorio" id="inputName" placeholder="Nome">
       <span class="text-danger"></span> <br>
   </div>
   <div class="form-group">
     <label for="inputAddress2">Rua</label>
-    <input type="text" name="rua" class="form-control obrigatorio" id="inputAddress2" placeholder="Ex: Rua das Flores, 34">
+    <input type="text" name="rua" class="form-control obrigatorio" id="idRua" placeholder="Ex: Rua das Flores, 34">
       <span class="text-danger"></span> <br>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Bairro</label>
-      <input type="text" name="bairro" class="form-control obrigatorio" id="inputCity"placeholder="Ex: Jardim Paraiso">
+      <input type="text" name="bairro" class="form-control obrigatorio" id="idbairro"placeholder="Ex: Jardim Paraiso">
         <span class="text-danger"></span> <br>
 
         <div class="form-group">
           <label for="inputAddress3">CEP</label>
-          <input type="text" name="cep" class="form-control obrigatorio" id="inputAddress3" placeholder="Ex: 75639">
+          <input type="text" name="cep" class="form-control obrigatorio" id="idcep" placeholder="Ex: 75639">
             <span class="text-danger"></span> <br>
           </div>
 
